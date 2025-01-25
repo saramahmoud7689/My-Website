@@ -4,18 +4,28 @@ body{
 
 
 /* index page */
+.big{
+    display:flex; 
+    width: 100%;
+    margin:0;
+    padding:0;
+}
 .slider {
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    /* display:flex; */
+    justify-content:right;
+    width: 50%;
+    margin:0;
+    padding:0;
+    /* align-items:center; */
 }
 .info{
     color: azure;
+    width: 50%;
+    margin:0;
+    padding:0;
+    
 }
-.links{
-
-}
-.links h3{
+.info h3{
     color: azure;
 }
 /* hobbies page */
