@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(201, 181, 200);
+}
+
+
+/* index page */
+.slider {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.info{
+    color: azure;
+}
+.links{
+
+}
+.links h3{
+    color: azure;
+}
+/* hobbies page */
+.images{
+    background-color: azure;
+    width: 1200px;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.image-container{
+    background-color: azure;
+    width: 1350px;
+    height: 500px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+}
+.images p{
+    color:blueviolet;
+}
+.h1style{
+    text-align: center;
+    color: azure;
+}
+
+
+/* cv page */
+.cv{
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    background: azure;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(223, 123, 206, 0.466);
+    width: 400px;
+}
+
+
+/* BD page */
+.b{
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #f9f9f9; */
+}
+.BD-container{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(223, 123, 206, 0.466);
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.BD-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#770f69;
+
+}
+.BD-container textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* width: auto; */
+}
+.BD-container button {
+    background-color: rgb(139, 62, 127);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* thank you page */
+.thx{
+    background-color: azure;
+    width: 1250px;
+    height: 520px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+}
+.thx h1{
+    color: rgb(139, 62, 127);
+}
+
+
+/* countries page */
+.h3style{
+    text-align: center;
+    color: azure;
+}
+.country{
+
+}
+
+
+/* contact us page */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(223, 123, 206, 0.466);
+    width: 400px;
+    /* justify-content: center; */
+}
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#a11a8f;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#770f69;
+}
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* width: auto; */
+}
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+.form-container fieldset {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+.form-container legend {
+    font-weight: bold;
+}
+.form-container .actions {
+    display: flex;
+    justify-content: space-between;
+}
+.form-container .actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-container .actions button[type="submit"] {
+    background-color: #283499;
+    color: #fff;
+}
+.form-container .actions button[type="reset"] {
+    background-color: #dd3d6d;
+    color: #fff;
+}
+
+/* Highlight required inputs */
+.required-container::after {
+    content: " *";
+    color: rgba(223, 123, 206, 0.466);
+}
+
+/* Styling invalid inputs */
+input:invalid {
+    border: 2px solid rgba(223, 123, 206, 0.466);
+    width: 95%;
+}
+
+input:invalid + span {
+    display: block;
+    color: rgba(223, 123, 206, 0.466);
+    font-size: 12px;
+    visibility: visible;
+}
+
+/* Styling valid inputs */
+input:valid {
+    border: 2px solid white;
+}
+
+input:valid + span {
+    visibility: hidden;
+}
+span {
+    color: rgba(223, 123, 206, 0.753);
+}
+.contact{
+    display:flex; 
+    justify-content:center; 
+    align-items: center; 
+
+}
+.contact p{
+    color: #770f69;
+}
