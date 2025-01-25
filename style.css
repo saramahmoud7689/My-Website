@@ -44,6 +44,12 @@ body{
     text-align: center;
     color: azure;
 }
+.images span{
+    transition: transform 0.3s ease-in-out;
+}
+.images span:hover{
+    transform: scale(1.2);
+}
 
 
 /* cv page */
