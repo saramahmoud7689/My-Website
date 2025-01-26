@@ -241,50 +241,51 @@ body{
     /* margin-bottom: 20px; */
     /* background-color: azure; */
 }
-@-webkit-keyframes slide_animation{
-    0%{
+@-webkit-keyframes slide_animation {
+    0% {
+        left: -1200px; /* Shift to reveal the leftmost part */
+    }
+    10% {
+        left: -1200px;
+    }
+    20% {
+        left: 0px; /* Reveal the middle part */
+    }
+    30% {
         left: 0px;
     }
-    10%{
-        left: 0px;
+    40% {
+        left: 1200px; /* Reveal the right part */
     }
-    20%{
+    50% {
         left: 1200px;
     }
-    30%{
-        left: 1200px;
+    60% {
+        left: 0px; /* Go back to the middle */
     }
-    40%{
-        left: 2400px;
-    }
-    50%{
-        left: 2400px;
-    }
-    60%{
-        left: 1200px;
-    }
-    70%{
-        left: 1200px;
-    }
-    80%{
+    70% {
         left: 0px;
     }
-    90%{
-        left: 0px;
+    80% {
+        left: -1200px; /* Go back to the leftmost */
     }
-    100%{
-        left: 0px;
+    90% {
+        left: -1200px;
+    }
+    100% {
+        left: -1200px;
     }
 }
+
 .wrapper{
     width: 3600px;
     height: 800px;
-    margin: 0 0 0 -2400px;
+    /* margin: 0 0 0 -2400px; */
     position: relative;
     -webkit-animation-name: slide_animation;
     -webkit-animation-duration: 33s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
+    -webkit-animation-direction:normal;
     -webkit-animation-play-state: running;
 } 
 .country{
