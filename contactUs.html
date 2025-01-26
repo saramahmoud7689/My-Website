@@ -1,101 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact Us</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="b">
-        <!-- form and add images for my social media accounts -->
-        <form action="thankYou.html" method="get" class="form-container">
-            <h1>Contact Me</h1>
-    
-            <input type="hidden" name="userId" value="12345">
-    
+
+<head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="b">
+    <!-- form and add images for my social media accounts -->
+    <form action="thankYou.html" method="get" class="form-container">
+
+        <div>
+            <p> </p>
+        </div>
             <div class="required-container">
                 <label for="firstName">First Name</label>
                 <input type="text" id="firstName" name="firstName" required>
                 <span>Not valid</span>
             </div>
-    
+
             <div class="required-container">
                 <label for="lastName">Last Name</label>
                 <input type="text" id="lastName" name="lastName" required>
                 <span>Not valid</span>
             </div>
-    
+
             <div class="required-container">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
                 <span>Not valid</span>
             </div>
-    
-            <div class="required-container">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-                <span>Not valid</span>
-            </div>
-    
-            <div class="required-container">
-                <label for="repeatPassword">Repeat Password</label>
-                <input type="password" id="repeatPassword" name="repeatPassword" required>
-                <span>Not valid</span>
-            </div>
-    
-            <label for="birthDate">Birth Date</label>
-            <input type="date" id="birthDate" name="birthDate">
-    
-            <label for="userPicture">User Picture</label>
-            <input type="file" id="userPicture" name="userPicture">
-    
-            <fieldset>
-                <legend>Gender</legend>
-                <input type="radio" id="male" name="gender" value="Male">
-                <label for="male">Male</label>
-    
-                <input type="radio" id="female" name="gender" value="Female">
-                <label for="female">Female</label>
-            </fieldset>
-    
-            <label for="faculty">Faculty</label>
-            <select id="faculty" name="faculty">
-                <option value="Science">Science</option>
-                <option value="Engineering">Engineering</option>
-                <option value="Arts">Arts</option>
-            </select>
-    
-            <fieldset>
-                <legend>Interests</legend>
-                <input type="checkbox" id="programming" name="interests" value="Programming">
-                <label for="programming">Programming</label>
-    
-                <input type="checkbox" id="reading" name="interests" value="Reading">
-                <label for="reading">Reading</label>
-    
-                <input type="checkbox" id="swimming" name="interests" value="Swimming">
-                <label for="swimming">Swimming</label>
-            </fieldset>
-    
-            <label for="about">About You</label>
-            <textarea id="about" name="about" rows="4"></textarea>
-    
-            <div class="required-container">
-                <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">I agree to the <a href="terms.html" target="_blank">terms and conditions</a></label>
-                <span>Not valid</span>
-            </div>
-    
+
+            <label for="about">Write Your Message Here</label>
+            <textarea id="about" name="about" rows="2"></textarea>
+
             <div class="actions">
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
             </div>
+
             <div class="contact">
                 <p>or you can contact me with</p> <br>
-                <a href="https://www.linkedin.com"><img src="resources/download.jpeg" width="50px" height="50px"></a>
+                <a href="https://www.linkedin.com/in/sarasmmahmoud/"><img src="resources/download.jpeg" width="50px" height="50px"></a>
                 <a href="https://www.github.com"><img src="resources/download.jpeg" width="50px" height="50px"></a>
-                <a href="https://www.watsapp.com"><img src="resources/download.jpeg" width="50px" height="50px"></a>
+                <a href="mailto:saramahmoud7689@gmail.com"><img src="resources/download.jpeg" width="50px" height="50px"></a>
                 <a href="https://www.facebook.com"><img src="resources/download.jpeg" width="50px" height="50px"></a>
             </div>
-        </form>
-    </body>
+
+    </form>
+</body>
+
 </html>
